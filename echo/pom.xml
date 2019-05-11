@@ -74,6 +74,7 @@
                                     <http>
                                         <url>http://localhost:${host.port}/server/resources/greetings</url>
                                     </http>
+                                    <time>60000</time>
                                 </wait>
                             </run>
                         </image>
