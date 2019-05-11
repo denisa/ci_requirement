@@ -3,10 +3,10 @@ jdk:
   - openjdk11
 
 sudo: required
+
 services:
   - docker
 
 install: true
 
 script: mvn
-
