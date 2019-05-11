@@ -10,6 +10,7 @@ jobs:
   build:
     executor: jdk11
     steps:
+      - setup_remote_docker
       - checkout
       - run: mvn
 
